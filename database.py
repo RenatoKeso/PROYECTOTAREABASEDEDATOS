@@ -6,7 +6,7 @@ import psycopg2
 def get_conexion():
     try:
         conexion = psycopg2.connect(
-            database='Tarea_Python',   
+            database='TareaPython',   
             user='postgres',          
             password='85271585r',       
             host='localhost',
